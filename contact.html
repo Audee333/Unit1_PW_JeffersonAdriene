@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+   
+    <div class="contactform">
+
+    <section>
+        <h2>Simple form</h2>
+        <!-- Create a simple form with a submit button that collects the users first and last name -->
+         <form action="./submission.html">
+            <h3>Enter your info</h3>
+            <!-- for attribute links to the input based on matching to the id -->
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName"/>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" name="last" id="lastName"/>
+           
+            
+            <input type="submit" value="Submit"/>
+         </form>
+    </section>
+    <section>
+        <h2>Form for phone, email and password</h2>
+        <!-- Create a form with a submit button that collects phone, email and password -->
+         <form action="./submission.html">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="cellphone"/>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">Password</label>
+            <input type="password" pattern="\w{3,16}" id="password" name="password">
+
+            <input type="submit" value="submit"/>
+
+         </form>
+    </section>
+    <section>
+        <h2>Text Area:</h2>
+        <form>
+            <textarea rows="5">
+            </textarea>
+        </form>
+        <!-- Create a form with a submit button asking users for a review of your website -->
+    </section>
+    </div>
+</body>
+</html>
+
+
+</body>
+</html>

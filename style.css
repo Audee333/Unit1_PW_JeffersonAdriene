@@ -1,0 +1,121 @@
+nav, a{
+    margin: auto;
+    padding: 10px;
+    width:fit-content;
+    background-color: rgb(207, 207, 207);
+    border-radius: 20px;
+    font-family: Avenir;
+    color:black;
+}
+.imageheader{
+    background-image: url('HEADER.png');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.intromessage{
+    background-color: rgb(171, 171, 255);
+    padding: 10px ;
+    margin: 15px;
+    font-family: avenir;
+    width: 500px;
+    justify-content: center;
+
+}
+/*cursor{
+    border-radius: 100%;
+    color: aqua;
+}*/
+h1{
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 60px;
+    padding: 10px;
+    margin: 5px;
+}
+.background-image {
+    display:flexbox ;
+    height:fit-content ;
+    width:fit-content ;
+    background-image: url(header-image_aj.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.about{
+    margin-top: 50px;
+    background-color: aliceblue;
+    font-family: avenir;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 20px;
+    width: 800px;
+
+}
+.about h2{
+    background-color: cadetblue;
+    padding: 10px;
+    font-family: Recoleta;
+    border-radius: 10px;
+}
+
+
+.grid-container {
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    column-gap: 10px;
+    justify-content: space-between;
+    padding-left: 100px;
+    margin: 10px;
+  }
+
+/*.button {
+    display: flexbox;
+    align-items: center;
+    width: 230px;
+    height: 100px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 50px #bebebe,
+                  -20px -20px 30px #ffffff;
+    font-family: avenir;
+    font-kerning: auto;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    grid-template-columns: repeat(3, 50px 1fr) 100px;
+    grid-gap: 5px;
+    box-sizing: border-box; 
+    padding: 30px; 
+}*/  
+.contactform {
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.portfoliobox{ 
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    font-family: avenir;
+    border-radius: 20px;
+    box-shadow:10px 10px 40px #bebebe,
+                  -10px -10px 20px #ffffff;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px, 1fr);
+    gap: 8px;
+    
+}
+.portfoliobox:hover{
+    background-color: blanchedalmond;
+
+}
+
