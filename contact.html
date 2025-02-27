@@ -2,77 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Portfolio Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css"/>
 </head>
-<body> 
-<header>
-    <h1>Portfolio</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
-
-<article>
-    <div class="container">
-         <div class="portfoliobox">
-        <h2>UX</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br> 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br> 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br> 
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="portfoliobox">
-            <h2>UI</h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br> 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br> 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br> 
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
-        </p>
-        </div>
-        <div class="portfoliobox">
-            <h2>Social Media Audit</h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br> 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br> 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br> 
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-    </div>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
    
-    <br>
+    <div class="contactform">
 
-
-
-</article>
-<!--< div class="grid-container">
     <section>
-    <div  class="button" role="button" tabindex="0">UI/UX</div>
-    <div>2</div>
-    <div>3</div>
-</section>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-  </div>
+        <h2>Simple form</h2>
+        <!-- Create a simple form with a submit button that collects the users first and last name -->
+         <form action="./submission.html">
+            <h3>Enter your info</h3>
+            <!-- for attribute links to the input based on matching to the id -->
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName"/>
 
-<div class="card">
-    <span> LLLLLLllllllllllll </span>
-</div> -->
-  
-  
+            <label for="lastName">Last Name</label>
+            <input type="text" name="last" id="lastName"/>
+           
+            
+            <input type="submit" value="Submit"/>
+         </form>
+    </section>
+    <section>
+        <h2>Form for phone, email and password</h2>
+        <!-- Create a form with a submit button that collects phone, email and password -->
+         <form action="./submission.html">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="cellphone"/>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">Password</label>
+            <input type="password" pattern="\w{3,16}" id="password" name="password">
+
+            <input type="submit" value="submit"/>
+
+         </form>
+    </section>
+    <section>
+        <h2>Text Area:</h2>
+        <form>
+            <textarea rows="5">
+            </textarea>
+        </form>
+        <!-- Create a form with a submit button asking users for a review of your website -->
+    </section>
+    </div>
+</body>
+</html>
 
 
 </body>
