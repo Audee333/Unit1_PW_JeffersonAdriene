@@ -8,7 +8,7 @@ nav, a{
     color:black;
 }
 .imageheader{
-    background-image: url('.header-iamge_aj');
+    background-image: url('HEADER.png');
     background-size: cover;
     background-position: center;
     height: 100px;
